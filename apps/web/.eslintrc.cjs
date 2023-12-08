@@ -1,5 +1,6 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
   root: true,
-  extends: ["@repo/eslint-config/index.js"],
+  extends: ['@repo/eslint-config/index.js', 'plugin:react-hooks/recommended'],
+  plugins: ['react-refresh'],
 };
